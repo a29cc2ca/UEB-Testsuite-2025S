@@ -1,0 +1,37 @@
+id myadd
+(
+id x
+:
+int
+,
+id y
+:
+int
+)
+:
+int
+id z
+:=
+num 0
+;
+while
+num 0
+<
+id x
+do
+id z
+:=
+id z
++
+id y
+;
+id x
+:=
+id x
+-
+num 1
+;
+end
+;
+end
+;

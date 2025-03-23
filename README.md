@@ -5,7 +5,11 @@ Additional tests for "Übersetzerbau" at TU Wien.
 ## Usage
 
 ```sh
-git pull https://github.com/a29cc2ca/UEB-Testsuite-2025S.git ~/test
+# Initial setup
+git clone https://github.com/a29cc2ca/UEB-Testsuite-2025S.git ~/test
+
+# Get the latest version
+cd ~/test && git pull
 ```
 
 ## Contributing

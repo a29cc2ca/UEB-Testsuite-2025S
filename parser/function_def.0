@@ -1,0 +1,3 @@
+myfunc() : int
+  return 1;
+end;

@@ -1,0 +1,8 @@
+/* assume x not negative */
+myadd(x: int, y: int) : int
+  var z : int := 0;
+  while 0 < x do
+    z := z + y;
+    x := x - 1;
+  end;
+end;

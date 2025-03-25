@@ -1,0 +1,9 @@
+mod(a : int, b : int) : int;
+gcd(a : int, b : int) : int
+  while not b = 0 do
+    var t : int := b;
+    b := mod(a, b);
+    a := t;
+  end;
+  return a;
+end;

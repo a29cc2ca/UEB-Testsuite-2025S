@@ -1,0 +1,6 @@
+f() : int
+  var i : int := 1;
+  while 0 < 1 do
+    i := i + 1;
+  end;
+end;

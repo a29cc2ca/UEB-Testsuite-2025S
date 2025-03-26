@@ -1,0 +1,5 @@
+f() : int
+  var x : int := 0;
+  var y : int := 1;
+  x := y;
+end;

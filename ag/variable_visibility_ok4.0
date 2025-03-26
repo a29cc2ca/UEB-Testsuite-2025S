@@ -1,0 +1,7 @@
+f(x : int, y : int) : int;
+
+g() : int
+  var i : int := 1;
+  var j : int := 1;
+  f(i, j);
+end;

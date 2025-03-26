@@ -1,0 +1,4 @@
+f(x : array of int) : int;
+g(y : array of int) : int
+  return f(y);
+end;

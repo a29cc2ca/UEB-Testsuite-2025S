@@ -1,0 +1,8 @@
+f() : int
+  var i : int := 1;
+  if 0 < 1 then
+    i := i + 1;
+  else
+    i := i - 1;
+  end;
+end;

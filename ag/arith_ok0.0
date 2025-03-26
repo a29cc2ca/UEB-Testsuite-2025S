@@ -1,0 +1,12 @@
+f(x : int, y : int, z : int) : int
+  z := 0 + 0;
+  z := 0 - 0;
+  z := 0 * 0;
+  z := x + 0;
+  z := x * 1;
+  z := x + y;
+  z := x * (x + 0);
+  z := x + (x * y);
+  z := x - y;
+  z := (x + y) * x;
+end;

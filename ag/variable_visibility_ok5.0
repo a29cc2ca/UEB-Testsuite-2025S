@@ -1,0 +1,6 @@
+f() : int
+  var x : int := 1;
+  var y : int := 2;
+  var z : int := 3;
+  return ((x + y) - z) * z;
+end;

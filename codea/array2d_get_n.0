@@ -1,0 +1,7 @@
+array2d_get_n(
+  xss : array of array of int,
+  i : int,
+  j : int
+) : int
+  return xss[i][j];
+end;

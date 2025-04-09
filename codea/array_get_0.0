@@ -1,0 +1,3 @@
+array_get_0(xs : array of int) : int
+  return xs[0];
+end;

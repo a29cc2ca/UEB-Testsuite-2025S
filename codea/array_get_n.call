@@ -1,0 +1,9 @@
+extern long array_get_n(long *, long);
+long xs[3] = {1, 2, 3};
+long ys[3] = {42, 2, 3};
+RET(array_get_n(xs, 0) == 1);
+RET(array_get_n(xs, 1) == 2);
+RET(array_get_n(xs, 2) == 3);
+RET(array_get_n(ys, 0) == 42);
+RET(array_get_n(ys, 1) == 2);
+RET(array_get_n(ys, 2) == 3);

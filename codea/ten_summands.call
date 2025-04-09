@@ -1,0 +1,5 @@
+extern long ten_summands(long);
+RET(ten_summands(0) == 0);
+RET(ten_summands(1) == 10);
+RET(ten_summands(2) == 20);
+RET(ten_summands(-1) == -10);

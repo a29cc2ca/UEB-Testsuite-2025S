@@ -1,0 +1,5 @@
+extern long f(long);
+extern long g(long);
+RET(f(0) + g(0) == 1);
+RET(f(1) + g(0) == 2);
+RET(f(0) + g(1) == 3);

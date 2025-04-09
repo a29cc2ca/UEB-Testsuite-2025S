@@ -1,0 +1,4 @@
+extern long times2(long);
+RET(times2(0) == 0);
+RET(times2(1) == 2);
+RET(times2(2) == 4);

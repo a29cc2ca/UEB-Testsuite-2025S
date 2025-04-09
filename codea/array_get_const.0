@@ -1,0 +1,9 @@
+array_get_0(xs : array of int) : int
+  return xs[0];
+end;
+array_get_1(xs : array of int) : int
+  return xs[1];
+end;
+array_get_2(xs : array of int) : int
+  return xs[2];
+end;

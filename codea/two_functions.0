@@ -1,0 +1,7 @@
+f(x : int) : int
+  return x + 1;
+end;
+
+g(x : int) : int
+  return x * 2;
+end;

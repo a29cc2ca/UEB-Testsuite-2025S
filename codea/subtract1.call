@@ -1,0 +1,3 @@
+extern long subtract1(long);
+RET(subtract1(0) == -1);
+RET(subtract1(1) == 0);

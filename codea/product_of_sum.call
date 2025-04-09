@@ -1,0 +1,6 @@
+extern long product_of_sum(long, long);
+RET(product_of_sum(0, 0) == 0);
+RET(product_of_sum(0, 1) == 1);
+RET(product_of_sum(1, 0) == 1);
+RET(product_of_sum(1, 1) == 4);
+RET(product_of_sum(1, 2) == 9);

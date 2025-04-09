@@ -1,0 +1,3 @@
+subtractfrom1(x : int) : int
+  return 1 - x;
+end;

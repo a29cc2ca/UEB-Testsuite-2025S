@@ -1,0 +1,7 @@
+array_plus_1(xs : array of int, n : int) : int
+  while 0 < n do
+    n := n - 1;
+    xs[n] := xs[n] + 1;
+  end;
+  return 0;
+end;

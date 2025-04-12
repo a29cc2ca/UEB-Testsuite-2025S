@@ -1,0 +1,8 @@
+f(n : int) : int
+  var result : int := 0;
+  while 0 < n do
+    result := result + 1;
+    n := n - 1;
+  end;
+  return result;
+end;

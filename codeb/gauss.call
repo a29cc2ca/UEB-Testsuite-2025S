@@ -1,0 +1,6 @@
+extern long gauss(long);
+RET(gauss(0) == 0);
+RET(gauss(1) == 1);
+RET(gauss(2) == 3);
+RET(gauss(3) == 6);
+RET(gauss(4) == 10);

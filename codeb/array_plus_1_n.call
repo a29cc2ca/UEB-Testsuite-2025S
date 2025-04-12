@@ -1,0 +1,11 @@
+extern long array_plus_1_n(long *, long);
+long xs[5] = {1, 2, 3, 4, 5};
+array_plus_1_n(xs, 0);
+array_plus_1_n(xs, 1);
+array_plus_1_n(xs, 3);
+array_plus_1_n(xs, 4);
+RET(xs[0] == 2);
+RET(xs[1] == 3);
+RET(xs[2] == 3);
+RET(xs[3] == 5);
+RET(xs[4] == 6);

@@ -1,0 +1,6 @@
+extern long mydiv(long, long);
+RET(mydiv(1, 1) == 1);
+RET(mydiv(2, 1) == 2);
+RET(mydiv(3, 2) == 1);
+RET(mydiv(4, 2) == 2);
+RET(mydiv(10, 2) == 5);

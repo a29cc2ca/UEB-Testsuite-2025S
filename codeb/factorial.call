@@ -1,0 +1,7 @@
+extern long factorial(long);
+RET(factorial(-1) == 1);
+RET(factorial(0) == 1);
+RET(factorial(1) == 1);
+RET(factorial(2) == 2);
+RET(factorial(3) == 6);
+RET(factorial(4) == 24);

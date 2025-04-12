@@ -1,0 +1,6 @@
+f(x : int) : int
+  if x = 0 or x = 1 then
+    x := 0 - 1;
+  end;
+  return x;
+end;

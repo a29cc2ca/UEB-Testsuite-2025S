@@ -1,0 +1,9 @@
+/* Precondition a >= 0, b > 0 */
+mydiv(a : int, b : int) : int
+  var result : int := 0;
+  while b < a + 1 do
+    a := a - b;
+    result := result + 1;
+  end;
+  return result;
+end;

@@ -1,0 +1,5 @@
+f(noread : array of int) : int
+  if 0 = 0 or noread[100] = 0 then
+  end;
+  return 0;
+end;

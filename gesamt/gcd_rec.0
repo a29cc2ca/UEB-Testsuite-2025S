@@ -1,0 +1,23 @@
+negate(x : int) : int
+  return x * (0 - 1);
+end;
+
+mod(a : int, b : int) : int
+  while b < a + 1 do
+    a := a - b;
+  end;
+  return a;
+end;
+
+gcd(a : int, b : int) : int
+  if a < 0 then
+    a := negate(a);
+  end;
+  if b < 0 then
+    b := negate(b);
+  end;
+  if b = 0 then
+    return a;
+  end;
+  return gcd(b, mod(a, b));
+end;

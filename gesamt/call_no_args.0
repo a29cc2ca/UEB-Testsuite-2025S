@@ -1,0 +1,7 @@
+g() : int
+  return 0;
+end;
+
+f() : int
+  return g();
+end;

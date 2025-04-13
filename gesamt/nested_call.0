@@ -1,0 +1,8 @@
+f(x : int, y : int) : int
+  return x + y;
+end;
+
+g(x : int) : int
+  /* 1 + (x + 1 + x + 2) + (x - 1 + x - 2) + 2 == 4x + 3 */
+  return f(1 + f(x + 1, x + 2), f(x - 1, x - 2) + 2);
+end;

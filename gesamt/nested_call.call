@@ -1,0 +1,3 @@
+extern long g(long);
+RET(g(0) == 3);
+RET(g(1) == 7);

@@ -1,0 +1,8 @@
+extern long fibonacci(long);
+RET(fibonacci(0) == 0);
+RET(fibonacci(1) == 1);
+RET(fibonacci(2) == 1);
+RET(fibonacci(3) == 2);
+RET(fibonacci(4) == 3);
+RET(fibonacci(5) == 5);
+RET(fibonacci(6) == 8);

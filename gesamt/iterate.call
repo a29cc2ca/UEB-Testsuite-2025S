@@ -1,0 +1,3 @@
+extern long plus_ten(long);
+RET(plus_ten(0) == 10);
+RET(plus_ten(1) == 11);
